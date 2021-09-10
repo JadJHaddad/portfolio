@@ -1,0 +1,84 @@
+/*----------------------- Styling for the Home Page -----------------------*/
+
+.home-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(182,182,182);
+  height: 30em;
+}
+
+.inner-box-one {
+  margin-top: 4em;
+}
+
+.inner-box-two {
+  width: 80%;
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+/* Styling of the Boxes */
+
+.small-box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-style: solid;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.design-box {
+  border-color: #79A1A4;
+}
+
+.build-box {
+  border-color: #80CED7;
+}
+
+.maintain-box {
+  border-color: #63C7B2;
+}
+
+/* Styling for the Icons */
+
+.icon {
+  margin-top: 0.5em;
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* Styling of the Box Titles */
+
+.box-title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.box-paragraph {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.design {
+  color: #79A1A4;
+}
+
+.build {
+  color: #80CED7;
+}
+
+.maintain {
+  color: #63C7B2;
+}
