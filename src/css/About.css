@@ -9,6 +9,12 @@
   border-radius: 50%;
   background-color:white;
   margin-top: -320px;
+  overflow: hidden;
+}
+
+.profile-picture{
+  max-width: 200px;
+  height: auto;
 }
 
 .banner {
@@ -33,10 +39,44 @@
   border-style: solid;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
+  text-align: center;
 }
 
 .aboutme-box{
+  border-color: #79A1A4;
+}
+
+.aboutme-box :first-child{
+  color: #79A1A4;
+}
+
+.aboutme-box :last-child{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.education-box{
+  border-color: #80CED7;
+}
+
+.education-box :first-child{
+  color: #80CED7;
+}
+
+.education-box :last-child{
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .background-box {
+  border-color: #63C7B2;
+}
+
+.background-box :first-child{
+  color: #63C7B2;
+}
+
+.background-box :last-child{
+  margin-left: 1em;
+  margin-right: 1em;
 }

@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.logo {
+  margin-left: 1em;
+}
+
 .nav-header a:last-child {
   margin-right: 1em;
 }

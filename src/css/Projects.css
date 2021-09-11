@@ -1,0 +1,40 @@
+#projects-title {
+  text-align: center;
+  color: rgb(182,182,182);
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#all-projects-box {
+  background-color: rgb(182,182,182);
+  height: 25em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  width: 333px;
+  margin-top: 3em;
+}
+
+#project-1 {
+  margin-left: 3em;
+}
+
+#project-3 {
+  margin-right: 3em;
+}
+
+.project-title {
+  margin-top: 0;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.project-preview {
+  background-color: white;
+  height: 200px;
+  width: 333px;
+}
