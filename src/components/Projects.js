@@ -3,29 +3,29 @@ import React from 'react';
 import '../css/Projects.css';
 
 const Projects = () => (
-  <body>
-    <h1 ID="projects-title">Past Projects</h1>
-    <div ID="all-projects-box">
-      <div ID="project-1" className="projects">
+  <div>
+    <h1 id="projects-title">Past Projects</h1>
+    <div id="all-projects-box">
+      <div id="project-1" className="projects">
         <h2 className="project-title">
           Project One
         </h2>
         <div className="project-preview" />
       </div>
-      <div ID="project-2" className="projects">
+      <div id="project-2" className="projects">
         <h2 className="project-title">
           Project Two
         </h2>
         <div className="project-preview" />
       </div>
-      <div ID="project-3" className="projects">
+      <div id="project-3" className="projects">
         <h2 className="project-title">
           Project Three
         </h2>
         <div className="project-preview" />
       </div>
     </div>
-  </body>
+  </div>
 )
 
 export default Projects;

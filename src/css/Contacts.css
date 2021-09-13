@@ -1,0 +1,18 @@
+#contacts-title {
+  color: rgb(111,111,111);
+  text-align: center;
+}
+
+#contacts-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20em;
+  margin: 4em 3em;
+}
+
+.contacts-box {
+  background-color: rgb(182,182,182);
+  height:250px;
+  width: 250px;
+}

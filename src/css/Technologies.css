@@ -1,0 +1,46 @@
+#technologies-title {
+  text-align: center;
+  color: rgb(111,111,111);
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#technologies-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.technologies-sub-title {
+  color: rgb(111,111,111);
+  font-size: 2em;
+  margin-bottom: auto;
+}
+
+#frontend, #backend {
+  height: 450px;
+  width: 50%;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: rgb(182,182,182);
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.technologies-icons {
+  width: 10%;
+}
+
+.technologies-container {
+  border-style: solid;
+  border-width: 3px;
+  height: 60%;
+  margin: 0 20px;
+  border-color: rgb(182,182,182);
+}
+
+#backend {
+  height: 450px;
+  width: 50%;
+}
