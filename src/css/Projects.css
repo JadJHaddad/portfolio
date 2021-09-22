@@ -1,29 +1,23 @@
 #projects-title {
   text-align: center;
   color: rgb(111,111,111);
-  font-size: 5em;
+  font-size: 3em;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 #all-projects-box {
   background-color: rgb(182,182,182);
-  height: 25em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .projects {
   width: 333px;
   margin-top: 3em;
-}
-
-#project-1 {
-  margin-left: 3em;
-}
-
-#project-3 {
-  margin-right: 3em;
 }
 
 .project-title {

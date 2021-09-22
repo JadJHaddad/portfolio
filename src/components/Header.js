@@ -74,8 +74,6 @@ class Card extends Component {
   }
 
   hideMenu(e) {
-    e.preventDefault();
-
     this.setState({
       showMenu: false,
     });
@@ -96,7 +94,7 @@ class Card extends Component {
                 <img id="drop-icon" src={Dropdown} alt="Drop Down"/>
               </button>
 
-              <Link to="/">
+              <Link to="/" onClick={this.hideMenu}>
                 <div className="nav">
                   <h3>
                     Home
@@ -105,7 +103,7 @@ class Card extends Component {
               </Link>
 
 
-              <Link to="/about">
+              <Link to="/about" onClick={this.hideMenu}>
                 <div className="nav">
                   <h3>
                     About
@@ -113,7 +111,7 @@ class Card extends Component {
                 </div>
               </Link>
 
-              <Link to="/projects">
+              <Link to="/projects" onClick={this.hideMenu}>
                 <div className="nav">
                   <h3>
                     Projects
@@ -121,7 +119,7 @@ class Card extends Component {
                 </div>
               </Link>
 
-              <Link to="/technologies">
+              <Link to="/technologies" onClick={this.hideMenu}>
                 <div className="nav">
                   <h3>
                     Technologies
@@ -129,7 +127,7 @@ class Card extends Component {
                 </div>
               </Link>
 
-              <Link to="/contacts">
+              <Link to="/contacts" onClick={this.hideMenu}>
                 <div className="nav">
                   <h3>
                     Contacts
