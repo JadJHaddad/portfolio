@@ -4,7 +4,7 @@ import DesignIcon from '../icons/design.svg';
 import MaintainIcon from '../icons/maintain.svg';
 import BuildIcon from '../icons/build.svg';
 
-import '../css/Home.css'
+import '../css/Home.css';
 
 const Home = () => (
   <div className = "home-box">

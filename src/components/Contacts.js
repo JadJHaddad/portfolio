@@ -13,7 +13,7 @@ const Contacts = () => (
     <div id="contacts-container">
       <div className="contacts-box">
         <img className="contacts-icons" src={PhoneIcon} alt="Smart Phone" />
-        <h2 className="contacts-sub-title">Let's Have a Chat.</h2>
+        <h2 className="contacts-sub-title">Let's Have a <br/> Chat.</h2>
         <a href="tel:+96176635615">
           <button className="buttons">
             Call Me
