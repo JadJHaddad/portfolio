@@ -5,6 +5,6 @@ import App from './components/App'
 import './css/Default.css';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+    <App />,
+document.getElementById('root')
 );

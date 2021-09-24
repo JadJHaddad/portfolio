@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, HashRouter, Route} from 'react-router-dom';
 
 // Importing Website components
 import Header from './Header';
@@ -11,7 +11,7 @@ import Contacts from './Contacts';
 
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div>
       <Header />
       <Route exact path="/" component={Home} />
@@ -20,7 +20,7 @@ const App = () => (
       <Route path="/technologies" component={Technologies} />
       <Route path="/contacts" component={Contacts}/>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
